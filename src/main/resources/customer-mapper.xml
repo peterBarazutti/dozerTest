@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping>
+        <class-a>model.bapi.CustomerBAPI</class-a>
+        <class-b>model.sap.CustomerSAP</class-b>
+        <field>
+            <a>customerName</a>
+            <b>name</b>
+        </field>
+        <field>
+            <a>luckyNumber</a>
+            <b>luckyNumberSAP</b>
+        </field>
+        <field>
+            <a>contacts</a>
+            <b>email</b>
+        </field>
+        <field>
+            <a>contacts</a>
+            <b>phone</b>
+        </field>
+        <!--<field>-->
+            <!--<a>contacts.email</a>-->
+            <!--<b>email.emailAddress</b>-->
+        <!--</field>-->
+    </mapping>
+</mappings>
